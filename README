@@ -1,0 +1,16 @@
+DATABASE STRUC:
+	Tables: Merchant_Unit,Item_Unit,City,Merchant_Category,Item_Category,Avatar_Base
+	Merchant_Unit:
+			mid\cid\mcid\addr\name\logo\detail\link\
+	Item_Unit:
+			id/name/mid/icid/regular/avnum/detail/link/
+	City:
+			cid\name\state
+	Merchant_Category:
+			mcid\supid\name\detail\
+	Item_Category:
+			icid\supid\name\detail\
+	Avatar_Base:
+			aid/id/picture(file)
+	
+	
