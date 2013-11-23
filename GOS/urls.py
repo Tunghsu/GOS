@@ -1,10 +1,14 @@
 from django.conf.urls import patterns, include, url
-
+from GOS.views import homepage
 # Uncomment the next two lines to enable the admin:
 # from django.contrib import admin
 # admin.autodiscover()
+from django.contrib import admin
+admin.autodiscover()
 
 urlpatterns = patterns('',
+                       (r'^$', homepage),
+                       (r'^admin/', include(admin.site.urls)),
     # Examples:
     # url(r'^$', 'GOS.views.home', name='home'),
     # url(r'^GOS/', include('GOS.foo.urls')),

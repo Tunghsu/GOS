@@ -3,7 +3,7 @@ DATABASE STRUC:
 	Merchant_Unit:
 			mid\cid\mcid\addr\name\logo\detail\link\
 	Item_Unit:
-			id/name/mid/icid/regular/avnum/detail/link/
+			id/name/mid/icid/regular/avnum/detail/link/price/ori_price
 	City:
 			cid\name\state
 	Merchant_Category:
